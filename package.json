@@ -1,0 +1,20 @@
+{
+  "name": "random-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node ./scripts/compile.js",
+    "deploy": "node ./scripts/deploy.js",
+    "deploy:rinkeby": "node ./scripts/deploy_rinkeby.js"
+  },
+  "author": "Random Tech Guy",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "16.0.0",
+    "solc": "0.8.11",
+    "truffle-hdwallet-provider": "1.0.17",
+    "web3": "1.7.0"
+  }
+}
